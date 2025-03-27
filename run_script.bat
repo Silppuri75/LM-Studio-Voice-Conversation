@@ -5,6 +5,8 @@ call conda activate python
 REM Change to the specific drive and directory
 D:
 cd /d D:\path\to your project\
+C:
+cd /d C:\Users\timpp\anaconda3\envs\munoma\LM-Studio-Voice-Conversation
 
 REM Check if the directory change was successful
 if not exist "%cd%" (
